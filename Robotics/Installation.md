@@ -1,9 +1,9 @@
-# Installationsanleitung
+# Installationsanleitung (für Pybricks nicht mehr erforderlich)
 Diese Installationsanleitung beschreibt die Installation der erforderlichen (Python) Komponenten zur Programmierung von Lego Boost über Bluetooth LE. Sie gilt (in Teilen) für Windows und/oder Linux und sollte in etwas abgewandelter Form auch für macOS funktionieren.
 ## Python installieren
 Grundvoraussetzung zur Programmierung mit Python ist die Installation der Programmiersprache. Hierbei kommt es auf das eingesetzte Betriebssystem an, ob und in welcher Version Python zur Verfügung steht; bei Linux und auch macOS ist Python in der Regel bereits installiert - möglicherweise jedoch nur in einer älteren Version (2.x).
 
-Zur Zeit (Oktober 2020) ist die Python-Version 3.9.0 aktuell, wobei diese Version nicht zwingend notwendig ist, um mit den Robotics-Projekten zu beginnen. Älter als Version 3.6 sollte Eure Python-Installation jedoch auch nicht sein; zumindest haben wir während unserer Vorbereitungen auf den Hackathon aktuelle(re) Python-Versionen verwendet und die Anleitung(en) darauf zugeschnitten.
+Zur Zeit (Oktober 2022) ist die Python-Version 3.10.6 aktuell, wobei diese Version nicht zwingend notwendig ist, um mit den Robotics-Projekten zu beginnen. Älter als Version 3.6 sollte Eure Python-Installation jedoch auch nicht sein; zumindest haben wir während unserer Vorbereitungen auf den Hackathon aktuelle(re) Python-Versionen verwendet und die Anleitung(en) darauf zugeschnitten.
 ### Windows
 Unter Windows (10) erfolgt die Installation besonders einfach über den Microsoft Store. Diesen startet man entweder manuell über das Windows Startmenü oder über die PowerShell bzw. die Eingabeaufforderung. Dort gibt man **python** als Befehl ein. Ist Python nicht installiert, so öffnet sich der Microsoft Store und bietet direkt die Installation von **Python 3.9** an.
 ### Linux
