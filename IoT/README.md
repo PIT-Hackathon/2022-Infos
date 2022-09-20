@@ -40,6 +40,14 @@ Die NodeMCU-Hardware ist eine Mikrocontroller-Plattform, die sich u.a. mit der A
 
 ![NodeMCU ESP8266 Mikrocontroller](images/NodeMCU.png)
 
+#### Raspberry Pi Pico W
+
+Der Raspberry Pi Pico ist ebenfalls eine Mikrocontroller-Plattform. 
+Auf dem Pico läuft kein Linux so wie auf seinem großen Bruder dem *Raspberry Pi* sonder er wird mit [MicroPython](https://micropython.org) oder der Arduino IDE programmiert. 
+Genauso wie der ESP8266 und ESP32 bringt die W Variante WLAN mit wodurch er sich für die Sensor Erfassung und andere kleine Aufgaben perfekt eignet.
+
+- <https://www.raspberrypi.com/products/raspberry-pi-pico/>
+
 #### Sensoren
 
 Damit Du Deine IoT-Idee umsetzen kannst, haben wir eine Auswahl an Sensoren und Aktoren zusammengestellt, die Dir und den anderen Gruppen während des Hackathons zur Verfügung stehen wird. Schau Dir doch einmal die Liste an; vielleicht hast Du ja eine gute Idee, was für ein Projekt man mit den vorhandenen Bauteilen umsetzen könnte. Die genauen Bezeichnungen der Module können Dir helfen, mehr Informationen zu den einzelnen Komponenten zu finden.
@@ -60,10 +68,6 @@ MQTT ist ein Nachrichtenprotokoll für die sogenannte M2M (Machine to Machine) K
 Die Kommunikation mit dem Server (im MQTT Umfeld auch Broker genannt) erfolgt von Seiten der Clients über Topics, auf die sie lesen oder schreiben können. Topics können dabei hierarchisch angelegt werden. Ein Beispiel wäre eine Wetterstation, die in das Topic "/wetter/paderborn/temperatur" jeweils die aktuelle Temperatur hineinschreibt. Ein weiterer Client könnte dann auf dieses Topic lauschen und wird vom Broker benachrichtigt, wenn es neue Ereignisse zum jeweiligen Topic gibt.
 
 - [Einführung in MQTT](https://www.predic8.de/mqtt.htm)
-
-#### LoRaWAN und The Things Network (TTN)
-
-Für Sensordaten immer beliebter wird LoRa bzw. [LoRaWAN](https://de.wikipedia.org/wiki/Long_Range_Wide_Area_Network). Diese Funktechnik verwendet frei verfügbare Frequenzbänder, um Daten über längere Distanzen (Kilometer sind möglich) zu versenden. Auch wenn die Datenrate bei weitem nicht so hoch ist wie bei WLAN oder GSM/UMTS/LTE oder Bluetooth, ist es eine sehr energiesparende und robuste Möglichkeit, (wenige) Daten sicher zu versenden. Empfangen werden sie von Gateways, die bspw. das offene [The Things Network](https://www.thethingsnetwork.org/) zur Verfügung stellt.
 
 ### Tools
 
