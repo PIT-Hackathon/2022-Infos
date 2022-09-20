@@ -48,6 +48,8 @@ Genauso wie der ESP8266 und ESP32 bringt die W Variante WLAN mit wodurch er sich
 
 - <https://www.raspberrypi.com/products/raspberry-pi-pico/>
 
+![Raspberry Pi Pico](images/pico_w.jpg)
+
 #### Sensoren
 
 Damit Du Deine IoT-Idee umsetzen kannst, haben wir eine Auswahl an Sensoren und Aktoren zusammengestellt, die Dir und den anderen Gruppen während des Hackathons zur Verfügung stehen wird. Schau Dir doch einmal die Liste an; vielleicht hast Du ja eine gute Idee, was für ein Projekt man mit den vorhandenen Bauteilen umsetzen könnte. Die genauen Bezeichnungen der Module können Dir helfen, mehr Informationen zu den einzelnen Komponenten zu finden.
